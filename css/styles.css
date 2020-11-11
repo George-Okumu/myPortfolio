@@ -554,7 +554,7 @@ background-color: white;
   border-top-width: 1px;
   border-left-width: 1px;
   border-style: solid;
-  border-color:black;
+  border-color:white;
   transition: all .8s linear;
 }
 .portfolio__item__hover:after {
