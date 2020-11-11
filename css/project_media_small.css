@@ -1,0 +1,93 @@
+@media screen and (max-width: 1024px) {
+  .nav-menu__list {
+    margin-left: -1em;
+  }
+  .nav-menu__text,
+  .nav-menu__email {
+    margin-left: 1.5em;
+    font-size: 1em;
+  }
+  .nav-menu__separator {
+    width: 82%;
+  }
+  .nav-menu__social-btn {
+    margin-left: 1em;
+  }
+  .nav-menu .fa-2x {
+    font-size: 1.9em;
+  }
+  .project__header {
+    padding-bottom: 2em;
+  }
+  .project__header__img {
+    max-width: 100%;
+  }
+  .project__title {
+   max-width: 90%;
+  }
+  .project__description {
+    max-width: 85%;
+    font-size: 1.3em;
+    border: none;
+    position: relative;
+    z-index: 2;
+  }
+  .project__buttons-container {
+    margin-bottom: 0;
+  }
+  .project__header__btn {
+    width: 130px;
+    margin: 0.5em;
+    font-size: 1em;
+  }
+  .project__flex {
+    margin: 2em 1em 1em;
+  }
+  .project__flex__item {
+    min-width: 90%;
+  }
+  .project__flex__item:nth-child(1) {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .project__flex__title {
+    font-size: 1.9em;
+  }
+  .project__flex__text {
+    font-size: 1.3em;
+  }
+  .project__main__btn {
+    width: 130px;
+    font-size: 1.3em;
+  }
+  .project__main__btn--previous {
+    left: 0.8em;
+  }
+  .project__main__btn--next {
+    right: 0.8em;
+  }
+  .footer {
+    height: 170px;
+  }
+  .footer__info__container {
+    margin: 1.5em 1em 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__copyright,
+  .footer-menu__list {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4
+  }
+  .footer__social-btn {
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+  }
+}

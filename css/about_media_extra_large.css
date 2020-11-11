@@ -1,0 +1,85 @@
+@media screen and (min-width: 1024px)
+              and (max-width: 1150px){
+  .about-me__title {
+    font-size: 2.2em;
+  }
+  .about-me__description {
+    max-width: 85%;
+    font-size: 1.3em;
+  }
+  /* skills */
+  .about-me__skills__flex {
+    max-width: 1100px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    height: 440px;
+    overflow-y: visible;
+  }
+  .about-me__skills__item {
+    display: block;
+    margin: 1em 0.5em;
+    min-width: 220px;
+    max-width: 235px;
+    height: 390px;
+    float: left;
+  }
+ .about-me__skills__text {
+   background-color: #fff;
+  }
+  /* biography */
+  .about-me__biography__flex {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 2em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+  }
+  .about-me__biography__item {
+    max-width: 300px;
+    height: 390px;
+    margin: 0.5em;
+  }
+  .about-me__biography__text {
+    max-width: 85%;
+  }
+  .about-me__first-letter {
+    font-size: 1.7em;
+  }
+  .about-me__more {
+    box-shadow: -95px 1px 1px 1px #fff,
+              -180px 1px 1px 1px #fff,
+              -225px 1px 1px 1px #fff,
+              -260px 1px 1px 1px #fff;
+  }
+                  
+  /* footer */
+  .footer {
+    height: 170px;
+  }
+  .footer__info__container {
+    margin: 1.5em 1em 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__copyright,
+  .footer-menu__list  {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4
+  }
+  .footer__social-btn {
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+  }
+}
