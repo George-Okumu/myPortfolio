@@ -218,8 +218,8 @@
                             Story</h2>
                         <h4 class="about-me__biography__description">...how it all started</h4>
                     </div>
-                    <p class="about-me__biography__text"><span class="about-me__first-letter">My</span> coding journey started earlier March 2020. For Months I've been training in building Android and website applications.Due to the fact that technology, Being fascinated with its continuous
-                        fast progress I set myself for a challenge to become a Senior Android Developer.</p>
+                    <p class="about-me__biography__text"><span class="about-me__first-letter">My</span> coding journey started earlier March 2020. For Months I've been training in building Android and website applications.Due to the fact that technology, being fascinated with its continuous
+                        fast progress I set myself for a challenge to become a Senior Front-End Developer.</p>
                     <p class="about-me__biography__text">I enjoy being a lifetime learner. I love creating something out of nothing by mixing up my knowledge, skills and imagination. The more days I see behind while learning to code, the more I fall in love with the new profession I chose
                         to do for a living. In fact, I call it now my "full-time" addiction.</p>
                     <p class="about-me__biography__text">People who know me say I am a thorough person with an eye for details. I dislike sloppiness in real life and bring the same rules to coding.</p>
@@ -246,7 +246,7 @@
         <!-- Footer -->
         <footer class="footer">
             <div class="footer__info__container">
-                <h2 class="footer__copyright">&copy; George Okumu 2020</h2>
+                <h2 class="footer__copyright">&copy; George Okumu <span id="date-place"></span></h2>
                 <!-- footer navigation -->
                 <ul class="footer-menu__list">
                     <li class="footer-menu__list-item">
@@ -291,6 +291,10 @@
 
             ga('create', 'UA-29336846-8', 'auto');
             ga('send', 'pageview');
+
+            let year = new Date();
+            let datePlace = document.getElementById("date-place");
+            datePlace.innerHTML = year.getFullYear();
         </script>
 
 </body>
