@@ -1,2 +1,2 @@
 # My Portfolio
-George Okumu | Android Developer
+     George Okumu | Android Developer

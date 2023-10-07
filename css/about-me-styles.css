@@ -54,7 +54,6 @@ body {
 .about-me__header {
     margin-top: -4em;
     /* background-image: url(../images/about_header.svg); */
-    background-image: url(../images/comp1.png);
     background-size: 700px;
     background-position: center 13em;
     background-repeat: no-repeat;

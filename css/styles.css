@@ -447,10 +447,10 @@ a {
     display: block;
     max-width: 360px;
     max-height: 360px;
-    border-radius: 50%;
-    border: 15px solid white;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    /* border-radius: 100%; */
+    /* border: 15px solid white; */
+    /* border-top-left-radius: 0;
+    border-bottom-left-radius: 0; */
 }
 
 .about__img__mobile {
