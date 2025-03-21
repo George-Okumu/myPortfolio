@@ -124,7 +124,7 @@
                         <br>Providing Mpesa & USSD solutions
                     </p>
 
-                    <a href="about-me.html" class="about__btn">Learn more</a>
+                    <button id="learnmore" class="about__btn">Learn more</button>
                 </div>
                 <div class="about__img__container">
                     <img src="images/DSC_5283.JPG" sizes="100vw" class="about__img" alt="autor portrait" />
@@ -134,7 +134,7 @@
         <!-- Portfolio -->
         <section id="portfolio" class="portfolio">
             <h1 class="portfolio__title">Portfolio<span class="portfolio__title__dot"></span></h1>
-            <h3 class="portfolio__description">Examples of my latest  projects build
+            <h3 class="portfolio__description">Examples of my latest projects build
                 with HTML, CSS and JavaScript. My portfolio includes static websites, android apps that i have
                 accomplished so far.</h3>
             <div class="portfolio__nav__container">
@@ -149,82 +149,56 @@
                         <img src="images/aires.png" class="portfolio__item__thumbnail" alt="image hover effects">
                         <h2 class="portfolio__item__info">Aires</h2>
                         <div class="portfolio__item__hover">
-                            <h2 class="portfolio__item__hover__title">HTML/Tailwind CSS
-                                <b>Laravel</b><span class="portfolio__title__dot title__dot--white"></span>
+                            <h2 class="portfolio__item__hover__title">Laravel | LiveWire | JS <span
+                                    class="portfolio__title__dot title__dot--white"></span>
                             </h2>
-                            <p class="portfolio__item__hover__description">Register Farm and Soil Test.</p>
+                            <p class="portfolio__item__hover__description">Farm and Crop Tracking Portal</p>
                         </div>
                     </a>
                 </div>
-                <!-- END portfolio__item -->
+
                 <div class="portfolio__item" data-name="website">
-                    <a href="tiehub.html">
-                        <img src="images/tiehub.png" class="portfolio__item__thumbnail" alt="image hover effects">
-                        <h2 class="portfolio__item__info">Tie Hub</h2>
+                    <a href="lastmile.html">
+                        <img src="images/LastMile.png" class="portfolio__item__thumbnail" alt="owl CSS illustration">
+                        <h2 class="portfolio__item__info">LastMile</h2>
                         <div class="portfolio__item__hover">
-                            <h2 class="portfolio__item__hover__title">React Js<span
-                                    class="portfolio__title__dot title__dot--white"></span></h2>
-                            <p class="portfolio__item__hover__description">Success stories for Tiehub group</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="portfolio__item" data-name="app">
-                    <a href="farmazao.html">
-                        <img src="images/farmazao.png" class="portfolio__item__thumbnail" alt="owl CSS illustration">
-                        <h2 class="portfolio__item__info">Farmazao</h2>
-                        <div class="portfolio__item__hover">
-                            <h2 class="portfolio__item__hover__title">Android App<span
-                                    class="portfolio__title__dot title__dot--white"></span></h2>
-                            <p class="portfolio__item__hover__description">Buy animal feed at a cheaper price through
-                                Farmazao app</p>
+                            <h6 class="portfolio__item__hover__title">Java | SpringBoot | AfricasTalking<span
+                                    class="portfolio__title__dot title__dot--white"></span></h6>
+                            <p class="portfolio__item__hover__description">A platform for farmers to form groups and
+                                access loans from merchants.</p>
                         </div>
                     </a>
                 </div>
 
                 <!-- END portfolio__item -->
+
+                <div class="portfolio__item" data-name="website">
+                    <a href="takaful.html">
+                        <img src="images/TAKAFUL.png" class="portfolio__item__thumbnail" alt="image hover effects">
+                        <h2 class="portfolio__item__info">TAKAFUL Africa</h2>
+                        <div class="portfolio__item__hover">
+                            <h2 class="portfolio__item__hover__title">CodeIgniter | Javascript<span
+                                    class="portfolio__title__dot title__dot--white"></span></h2>
+                            <p class="portfolio__item__hover__description">Admin Dashboard for managing livestock
+                                insurance and protection activities.</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- END portfolio__item -->
+
                 <div class="portfolio__item" data-name="website">
                     <a href="watamufoods.html">
                         <img src="images/watamufoods.png" class="portfolio__item__thumbnail"
                             alt="camera CSS illustration">
                         <h2 class="portfolio__item__info">Watamu Foods</h2>
                         <div class="portfolio__item__hover">
-                            <h2 class="portfolio__item__hover__title">Flask | React Vite<span
+                            <h2 class="portfolio__item__hover__title">Flask | React<span
                                     class="portfolio__title__dot title__dot--white"></span></h2>
-                            <p class="portfolio__item__hover__description">Restarants in watamu.</p>
+                            <p class="portfolio__item__hover__description">Watamu Foods</p>
                         </div>
                     </a>
                 </div>
 
-                <!-- END portfolio__item -->
-                <div class="portfolio__item" data-name="website">
-                    <a href="lifchat.html">
-                        <img src="images/lifchat.png" class="portfolio__item__thumbnail" alt="image hover effects">
-                        <h2 class="portfolio__item__info">Lifchat Team</h2>
-                        <div class="portfolio__item__hover">
-                            <h2 class="portfolio__item__hover__title">React js | Next.js<br>Tailwind css<span
-                                    class="portfolio__title__dot title__dot--white"></span>
-                            </h2>
-                            <p class="portfolio__item__hover__description">For campaigning</p>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="portfolio__item" data-name="app">
-                    <a href="recipe.html">
-                        <img src="images/recipe2 (1)-1.png" class="portfolio__item__thumbnail"
-                            alt="image hover effects">
-                        <h2 class="portfolio__item__info">Geo Food</h2>
-                        <div class="portfolio__item__hover">
-                            <h2 class="portfolio__item__hover__title">Android<span
-                                    class="portfolio__title__dot title__dot--white"></span>
-                            </h2>
-                            <p class="portfolio__item__hover__description">An app that provides chefs with recipe to
-                                cook a delicious meal.</p>
-                        </div>
-                    </a>
-                </div>
                 <!-- END portfolio__item -->
 
             </div>
@@ -255,6 +229,17 @@
                 </div>
             </div>
         </section>
+
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Coming Soon</p>
+            </div>
+
+        </div>
+
         <!-- Footer -->
         <footer class="footer">
             <div class="footer__info__container">
@@ -290,6 +275,7 @@
     <!--inert js-->
     <script src="js/scripts.min.js"></script>
     <!-- js scripts-->
+    <script src="./js/scripts.js"></script>
 
     <script>
         let year = new Date();

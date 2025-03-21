@@ -423,7 +423,7 @@ a {
 
 .about__btn {
     display: inline-block;
-    height: 26px;
+    /* height: 26px; */
     margin: 0.5em 0 1em 0;
     padding: 5px 20px 3px;
     border-radius: 26px;
@@ -652,7 +652,7 @@ a {
 .portfolio__item__hover__title {
     margin: 1.5em 0 0;
     color: #fff;
-    font-size: 2.4em;
+    font-size: 1.2em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -680,7 +680,7 @@ a {
 
 .portfolio__item__hover__base-info__title {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -840,3 +840,42 @@ a {
     opacity: 1;
     text-align: right;
 }
+
+
+/* Coming Soon Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
