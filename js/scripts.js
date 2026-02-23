@@ -234,6 +234,15 @@ function onReady() { // Handler when the DOM is fully loaded
     var button = e.target.dataset.btnName;
     var portfolioItems = document.querySelectorAll(".portfolio__item");
     var portfolioItemsArray = [].slice.call(portfolioItems);
+    var allBtns = document.querySelectorAll(".portfolio__nav__btn");
+
+    // Update active button state
+    [].slice.call(allBtns).forEach(function(btn) {
+      btn.classList.remove("active");
+      btn.removeAttribute("data-active");
+    });
+    e.target.classList.add("active");
+    e.target.setAttribute("data-active", "true");
 
     portfolioItemsArray.forEach(function (element) {
       function hideElement() {
@@ -256,6 +265,8 @@ function onReady() { // Handler when the DOM is fully loaded
       }
       if (button == "websites-btn") {
         portfolioItemSort("website");
+      } else if (button == "pm-btn") {
+        portfolioItemSort("pm");
       } else if (button == "apps-btn") {
         portfolioItemSort("app");
       } else if (button == "all-btn") {
