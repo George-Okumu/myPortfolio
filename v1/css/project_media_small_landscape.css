@@ -1,0 +1,17 @@
+@media screen and (min-width: 320px)
+              and (max-width: 1024px)
+              and (orientation: landscape) {
+  .nav-menu__text {
+    display: none;
+  }
+  .project__description {
+    margin-bottom: 0;
+  }
+  .project__header__img {
+    margin-top: -2em;
+  }
+  .project__flex {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}

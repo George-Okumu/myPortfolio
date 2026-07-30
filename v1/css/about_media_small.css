@@ -1,0 +1,90 @@
+@media screen and (max-width: 500px) {
+  .about-me__header {
+    background-size: 110%;
+    background-position: center bottom;
+    height: 560px;
+  }
+  .about-me__title {
+    font-size: 2.2em;
+    top: 2em;
+  }
+  .about-me__description {
+    width: 80%;
+    font-size: 1.3em;
+    top: 6.5em;
+  }
+  /* skills */
+  .about-me__skills__flex {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    height: 1240px;
+  }
+  .about-me__skills__item {
+    min-width: 240px;
+    max-width: 260px;
+  }
+  .about-me__skills__btn {
+    margin-top: 0.5em;
+  }
+  /* biography */
+  .about-me__biography__flex {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 2em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .about-me__biography__item {
+    min-width: 280px;
+    max-width: 300px;
+    height: 390px;
+    margin: 1em auto;
+  }
+  .about-me__biography__text {
+    max-width: 85%;
+  }
+  .about-me__first-letter {
+    font-size: 1.7em;
+  }
+  /* email */
+  .about-me__email__container {
+    width: 310px;
+    height: 40px;
+  }
+  .about-me__email__icon {
+    width: 25px;
+    padding: 12px 8px;
+  }
+  .about-me__email {
+    font-size: 1.3em;
+    left: 49px;
+  }
+
+  /* Footer */
+  .footer {
+    height: 170px;
+  }
+  .footer__info__container {
+    margin: 1.5em 1em 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__copyright,
+  .footer-menu__list {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4
+  }
+  .footer__social-btn {
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+  }
+}
